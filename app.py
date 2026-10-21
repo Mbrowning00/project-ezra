@@ -56,6 +56,8 @@ def home():
                     addMessage("Ezra", " I'm doing great! Thanks for asking!");
                 } else if (lower.includes("what can you do")){
                     addMessage("Ezra", " I can respond to simple questions for now");
+                } else if (lower.includes("joke")){
+                    addMessage("Ezra", " What is an AI’s favorite snack? Micro-chips.");
                 } else {
                     addMessage("Ezra", " Ezra received message: " + message);
 
